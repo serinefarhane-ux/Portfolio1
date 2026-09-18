@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Load the full weight axis (100 to 900) along with custom SOFT and WONK axes -->
 
+
+
+</head>
+<body>
+      <div class = "navbar">
+        <nav>
+          <ul>
+            <li>
+              <a href="!.html" id="cat">Home</a>
+            </li>
+            <li>
+              <a href="page2.html">Book Recommendations</a>
+            </li>
+            <li>
+              <a href="crochet.html">Crochet Patterns</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+ <div class="bighome">
+    <div class="homeContainer">
+     <p id="readingbtn">Get to Know Lina!</p>
+     <section class="title">
+         <h2 id="favBook">Hi! I'm Lina!</h2>
+     </section> 
+   <p id="welcome">I'm a sophomore at MB. I love reading, crochet, and cats!</p>
+   <div class="linkBtn"><p id="explorelists"><a id="m" href="page2.html">Look at some of my favorite Book Recommendations<span>⮕</span></a></p>
+    <p><a id="bookrecs" href="crochet.html">Explore some of my favorite crochet projects I've done <span>⮕</span> </a></p>
+  </div>
+  </div>
+  
+  <style>
+   @font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/fraunces:vf@5.3.0/latin-wght-normal.woff2) format('woff2-variations');
+}
+
+  #m{
+    font-size:13px;
+    padding:8px;
+    color:var(--bg);
+    font-weight:1000;
+    background-color: var(--accent-slate);
+    padding:15px;
+    width:250px;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+  }
+  #m:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.0);
+  }
+  #bookrecs{
+    font-size:13px;
+    padding:8px;
+    color:var(--bg);
+    text-decoration:none;
+    font-weight:1000;
+    background-color: var(--accent-indigo);
+    padding:15px;
+    width:250px;
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+  }
+  #bookrecs:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.0);
+  }
+  #trend{
+    font-size:12px;
+    font-weight:bold;
+    color:var(--accent-lavender);
+    margin-bottom:8px;
+   } 
+   #fea{
+    color:var(--text);
+    font-size:45px;
+    font-weight:1000;
+    font-variation-settings: 'SOFT' 100, 'WONK' 1; 
+   }
+   .homeheading{
+    margin-left:40px;
+    margin-bottom:20px;
+   }
+  </style>
+
+<div class="homeContainer">
+    <img id="homeImage" src="home.png" alt="cozy reading corner" />
+</div>
+</div>
+
+    <div class="homeheading">
+    <h3 id="trend">MY CURRENT FAVS</h3>
+    <h2 id="fea">Fun Facts</h2>
+</div>
+    <div class="bulletpoints">
+    <ul>
+    <li>I have had 2 cats
+        <ul>
+            <li>
+                Gary
+            </li>
+            <li>
+                Harley
+            </li>
+        </ul>
+    </li>
+    <li>I have been crocheting for 3 years.</li>
+    <li>I have read over 100 books in the past 3 years.</li>
+    <li>I can crochet for hours without getting bored.</li>
+    <li>My favorite:
+        <ul>
+            <li>Genre is YA and Romantasy</li>
+            <li>crochet projects are ammugurimi</li>
+            <li>color is purple (that was kinda obvious)</li>
+            <li>book is the Inheritence games</li>
+        </ul>
+    </li>
+</ul>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2AVgKf9f5tMNtx9ujVd0MD?utm_source=generator&si=9d9f9b1094e347ee" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
+
+
+
+<style>
+    
+    ul{
+        margin-left:40px;
+        font-size:15px;
+        color:var(--text);
+    }
+</style>
+
+
+</body>
+</html>
